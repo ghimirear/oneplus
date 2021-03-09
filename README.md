@@ -1,5 +1,5 @@
 # oneplusone
-  https://github.com/ghimirear/oneplusone
+  https://github.com/ghimirear/oneplus
   ## Table of Contents:
   - [Title](#Title)
   - [Summary](#Summary)
