@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>About Us | Plus One</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+  <style>
+    li{
+      list-style-type: none;
+    }
+    header{
+      background-color: aliceblue;
+    }
+   
+    .form-col{
+      background-color: black;
+      opacity: 0.6;
+      height: 100%;
+      width: 30vw;
+      box-shadow: 0 0 2px 5px royalblue;
+    }
+    #email-input{
+      background-color: white;
+      color: black;
+      font-size: 1.3rem;
+    }
+    #password-input{
+      background-color: white;
+      color: black;
+      font-size: 1.3rem;
+    }
+    h2{
+      color: white;
+    }
+    p{
+      font-size: 2rem;
+      color: white;
+    }
+    body {
+    background-image: url('./images/plusone.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  </style>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">               
+              <li class="nav-item">
+              <img src="./images/plusonelogo.png" class="logo" width="90px" alt="logo"></span>
+              </li>
+            </ul>
+
+        </div>
+      </div>
+  </nav>
+  </header>
+  <div class="container" style="height: 100vh;" style="width: 100vw;">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 form-col">
+        <h2>Login Form</h2>
+        <form class="login">
+          <div class="form-group">
+            <label for="exampleInputEmail1" style="color: white; font-size: 2rem;">Email address</label>
+            <input type="email" class="form-control" id="email-input" placeholder="Email" style="color: black; font-size: 2rem;">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" style="color: black; font-size: 2rem;" >Password</label>
+            <input type="password" class="form-control" id="password-input" placeholder="Password" style="color: black; font-size: 2rem;">
+          </div>
+          <button type="submit" class="btn btn-default">Login</button>
+        </form>
+        <br />
+        <p>Or sign up <a href="/">here</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+
+</body>
+
+</html>

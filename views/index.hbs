@@ -1,0 +1,26 @@
+
+
+    <div class="container">
+{{#each event}}
+<div class="card">
+    <div class="card-header">
+       <h5>{{this.eventName}}</h5> 
+    </div>
+    <div class="card-body">
+       <p>{{this.eventName}}</p> 
+       <p>{{this.hostName}}</p> 
+       <p>{{this.address}}</p> 
+       <p>{{this.city}}</p> 
+        <p>{{this.description}}</p>
+      <p>{{this.noumberofAttendees}}</p>  
+      <p>{{this.dateTime}}</p>  
+    </div>
+    <div class="card-footer"><button {{this.id}} class="btn btn-primary">delete</button></div>
+</div>
+{{/each}}
+</div>
+<form action="post">
+    <input type="text">
+    <button>subbmit</button>
+</form>
+

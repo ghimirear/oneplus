@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./landingpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/aboutus.css">
+    <title>About Us | Plus One</title>
+</head>
+
+<body>
+    <div>
+        <style>
+            body {
+                background-image: url('https://images.unsplash.com/photo-1599458252573-56ae36120de1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: right top;
+                background-attachment: fixed;
+            }
+        </style>
+  <header>
+    <nav class="navbar navbar-expand-lg justify-content-end">
+        <a class="navbar-brand" href="#"> <span class="navbar-text text-uppercase ">
+            <img src="./images/plusonelogo.png" class="logo" width="90px" alt="logo"></span>
+          </a>
+        <div class="container-fluid d-flex justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./landingpage.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> Profile
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <!--- <li><a class="dropdown-item" href="./signup.html">Register</a></li> -->
+                            <li><a class="dropdown-item" href="/logout">logout</a></li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <!--<li><a class="dropdown-item" href="/events"> Events</a></li>-->
+                            <li><a class="dropdown-item" href="/findevents">Find Events</a></li>
+                            <li><a class="dropdown-item" href="./eventsinvite">Request an Event Invite</a></li>
+                   </ul>  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+     
+<div class="jumbotron">
+    <h2 class="display-4">About Plus One</h2>
+    <hr class="my-4">
+  <div class="maintext">
+    <p>Description: A web application created for users looking to meet new friends or dates to attend local 
+        events with. Here, users (for example user A) can view local events or create an event of their own and other 
+        users who are also interested in the same event as user A, can request to attend the event with user A. When the 
+        users sign up to attend the event, they can enter their contact information and then sign up. Then a link to the 
+        event will be generated and saved to their profile so they can later view the event details as needed. If user A 
+        and another user (for example user B) decide to attend the event together, user A can review both the event and 
+        user B after the event. If user B would like to respond to the review, they are also able to do so. The website is
+         open to both users looking for date related activities as well as platonic activities. </p>  
+  </div>
+</div>
+</body>
+
+</html>
