@@ -22,7 +22,7 @@
   ### How to contribute to this project?
   Download the repo add your work and commit.
   ### Contributors 
-  https://github.com/HOLAHU9
+ -[duc]( https://github.com/HOLAHU9)
   https://github.com/mygithub23
   https://github.com/KokhobYohannes
   https://github.com/DanielleB229
