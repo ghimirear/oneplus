@@ -22,10 +22,10 @@
   ### How to contribute to this project?
   Download the repo add your work and commit.
   ### Contributors 
- - [!duc]( https://github.com/HOLAHU9)
-  https://github.com/mygithub23
-  https://github.com/KokhobYohannes
-  https://github.com/DanielleB229
+ - [duc dinh]( https://github.com/HOLAHU9)
+   [Ali ]https://github.com/mygithub23
+   [Kokhob] https://github.com/KokhobYohannes
+  [Danielle] https://github.com/DanielleB229
   ### Acknowledge 
   Thank you Kokhob, Danielle, Ali and Duc.
   ## Test
